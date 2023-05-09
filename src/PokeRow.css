@@ -1,0 +1,43 @@
+.poke__Description{
+    color:aliceblue;
+}
+.poke__SelectButton{
+    color:bisque;
+    background-color:brown;
+    width: 33% fit-content;
+    margin-left:10px ;
+}
+.poke__Name{
+    color:red;
+}
+.poke__Moves{
+    color:brown;
+}
+.pokerow{
+    color: white;
+    margin-left: 20px;
+}
+.pokerow__posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.pokerow__posters::-webkit-scrollbar{
+    display: none;
+}
+.pokerow__poster{
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+    width:100%;
+    transition: transform 450ms;
+    
+}
+.pokerow__poster:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+.pokerow__posterLarge{
+    max-height: 250px;
+}

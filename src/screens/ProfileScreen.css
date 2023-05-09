@@ -1,0 +1,13 @@
+.profileScreen__body
+{
+    margin-top: 10%;
+    text-align: center;
+    color:red;
+    border:none;
+    border-radius: 10px;
+    padding: 2px;
+    /* display: flexbox;  */
+}
+.profileScreen__info > .profileScreen__details > .profileScreen__plans > .profileScreen__signOut{
+    color:red
+}
